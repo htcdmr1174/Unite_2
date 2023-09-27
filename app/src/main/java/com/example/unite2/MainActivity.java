@@ -2,6 +2,7 @@ package com.example.unite2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -14,9 +15,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void uyg2Goster(View view) {
-        Intent i = new Intent  ( packageContext: MainActivity.this, Uyg2.class);
+        Intent i = new Intent(MainActivity.this, Uyg2Activity.class);
         startActivity(i);
 
 
+    }
+
+    public void Uyg4Goster(View view) {
+        Intent i = new Intent  ( MainActivity.this, Uyg4Activity.class);
+        startActivity(i);
+    }
+    public void ss64(View view) {
+        Intent i = new Intent(MainActivity.this, SS64Activity.class);
+        startActivity(i);
     }
 }
