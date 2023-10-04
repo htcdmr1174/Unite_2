@@ -32,6 +32,19 @@
         tools:ignore="UsingOnClickInXml" />
 
     <Button
+        android:id="@+id/btnUyg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:onClick="Uyg5Goster"
+        android:text="5.UYGULAMA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
         android:id="@+id/btnUyg6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
